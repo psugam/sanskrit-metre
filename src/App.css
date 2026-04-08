@@ -790,6 +790,8 @@ thead th {
   margin: 0 auto;
   font-size: 1rem;
   line-height: 1.7;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .markdown-content h2,
@@ -805,10 +807,14 @@ thead th {
   background: var(--accent-soft);
   padding: 0.8rem;
   overflow-x: auto;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .markdown-content code {
   font-family: 'IBM Plex Sans', sans-serif;
+  max-width: 100%;
 }
 
 .content-figure {
@@ -891,4 +897,3 @@ thead th {
     min-width: 720px;
   }
 }
-

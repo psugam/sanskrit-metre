@@ -74,7 +74,11 @@ export const markdownToHtml = (markdownText) => {
       closeList()
       const altText = imageMatch[1].trim() || 'Image'
       const source = imageMatch[2].trim()
-      const src = source.startsWith('http') ? source : `/${source.replace(/^\.\//, '')}`
+      const base = import.meta.env.BASE_URL || '/'
+      const normalizedBase = base.endsWith('/') ? base : `${base}/`
+      const src = source.startsWith('http')
+        ? source
+        : `${normalizedBase}${source.replace(/^\.\//, '').replace(/^\/+/, '')}`
       parts.push(
         `<figure class="content-figure"><img src="${src}" alt="${altText}" />` +
           `<figcaption>${altText}</figcaption></figure>`

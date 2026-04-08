@@ -11,7 +11,8 @@ import {
 } from './data/meters'
 import { buildTotalScansionPdf } from './lib/pdf'
 
-const SAMPLE_INPUT = `kaścit kāntāvirahaguruṇā svādhikārapramattaḥ
+const SAMPLE_INPUT = 
+`kaścit kāntāvirahaguruṇā svādhikārapramattaḥ
 śāpenāstaṃgamitamahimā varṣabhogyeṇa bhartuḥ
 yakṣaś cakre janakatanayāsnānapuṇyodakeṣu
 snigdhacchāyātaruṣu vasatiṃ rāmagiryāśrameṣu`
@@ -161,6 +162,16 @@ function App() {
     setSelectedMeterIds([])
     setLimitWarning('')
     resetResults()
+  }
+
+  const handlePaste= async () => {
+    try{
+      const clipboardText = await navigator.clipboard.readText();
+      setInputText(clipboardText) 
+    }
+    catch(err){
+      console.error('Error accessing clipboard:', err)
+    }
   }
 
   const handleModeChange = (value) => {
@@ -372,6 +383,7 @@ function App() {
                   <button type="button" className="primary-action" onClick={handleAnalyze}>Run Analysis</button>
                   <button type="button" className="ghost-action" onClick={handleSample}>Load sample verse</button>
                   <button type="button" className="ghost-action" onClick={handleClear}>Clear input</button>
+                  <button type="button" className="ghost-action" onClick={handlePaste}>Paste from clipboard</button>
                 </div>
               </div>
 
