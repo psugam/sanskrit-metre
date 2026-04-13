@@ -10,7 +10,7 @@ This site collects resources related to Sanskrit metres: metre identification, s
 for writing metrical Sanskrit.
 
 **Note**: The following introduction focuses on **varṇavṛtta** (metres regulated by syllable count and quantity).
-Mātrāvṛtta (moraic metres) and Vedic metres are separate traditions and are not covered here.
+Mātrāvṛtta (moraic metres) and Vedic metres are separate traditions and are not covered here. When I say *metre* here, understand it to mean varṇavṛtta only; otherwise much of what I say would be inaccurate.
 
 ## Syllables and Syllabification
 
@@ -54,13 +54,60 @@ The following is an example of such syllabification from our program (first vers
 
 You can mark heavy and light syllables in many ways. Traditional notations include:
 
-Indigenous:
+> Indigenous:
 
 Light = ।
-Heavy = ॥
+Heavy = ऽ
 
-Western:
+> Western:
 
 Light = ⏑
 Heavy = —
 Anceps (either) = x
+
+## Metres
+
+Now that we know about the syllables and their weights, we are ready to understand metres themselves. Metres are just combinations of Laghu and Guru syllables. That's it. 
+
+Sanskrit metres are usually arranged in a set of 4 to make a stanza. In some metres all of these 4 (called pāda = quarter) follow the same pattern while in others the patterns are different. 
+
+Except for the the manifold combination of laghu and guru, there is also the role of caesura. Caesura (or in Sanskrit yati) means pause. When you reach the point of caesura, you have to stop your recitation for a small amount of time. The time of this pause should be noticeable but less than the pause between the lines themselves. 
+
+### Samavrtta
+If all the four pāda-s of a stanza follow the same pattern or combination of laghu and guru syllables, these are called samavrtta metres. This is the largest category of metres and the majority of metres that you are likely to encounter. 
+
+As an example, let us imagine a metre that has sixteen syllables in each line where the pattern is such that a laghu syllable is followed by a guru syllable. In metrical notation, it will be depicted like this: 
+
+। ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ
+। ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ
+। ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ
+। ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ । ऽ
+
+If you (or some poet) were to compose their verses in a metre like this, they **must** be bound by the  constraints imposed by this combination. If you randomly add two laghu syllables in succession anywhere, the metre will break. The readers, if they have experience, will immediately feel that something is wrong without even trying to scan the verses manually (or with a tool like this site). 
+
+But, you might say, this seems like a difficult pattern to follow. Is it even possible to follow these constraints without writing nonsense ?
+
+It does appear difficult to the beginner (and it is difficult) but it is not impossible and after practice, anyone can do compose verses in this metre. With some practice, you can not only recite verses composed in this metre but also compose them yourself. 
+
+The pattern given above is called pañcacāmara and is not rare in Sanskrit literature. The following is the first stanza of a popular prayer composed in this metre:
+
+jaṭāṭavīgalajjalapravāhapāvitasthale
+gale'valambya lambitāṃ bhujaṃgatuṃgamālikām‌
+ḍamaḍḍamaḍḍamaḍḍamanninādavaḍḍamarvayaṃ
+cakāra caṃḍatāṃḍavaṃ tanotu naḥ śivaḥ śivam
+
+### Ardhasamavrtta
+
+If the first and third line share one pattern while the second and fourth line share the same pattern, the metre is called ardhasamavrtta metre. 
+The popular *śloka* metre is an example of ardhasamavrtta metre.
+
+x x x x । ऽ ऽ x
+x x x x । ऽ । x
+x x x x । ऽ ऽ x
+x x x x । ऽ । x
+
+### Visamavrtta
+
+If all four lines follow different patterns these are called visamavrtta metres. These are rare in actual literature compared to the first two. 
+padacatururdhva is an example:
+
