@@ -256,6 +256,11 @@ body[data-theme='dark'] {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: var(--accent);
 }
 
 .nav-link.active,
@@ -825,8 +830,35 @@ thead th {
 }
 
 .markdown-content code {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
   max-width: 100%;
+}
+
+.markdown-content p {
+  margin: 0.6rem 0;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.4rem;
+  margin: 0.6rem 0 0.9rem;
+}
+
+.markdown-content li {
+  margin: 0.25rem 0;
+}
+
+.markdown-content blockquote {
+  margin: 0.8rem 0;
+  padding: 0.4rem 0.9rem;
+  border-left: 2px solid var(--line);
+  background: var(--accent-soft);
+  color: var(--muted);
+}
+
+.markdown-content a {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 .content-figure {

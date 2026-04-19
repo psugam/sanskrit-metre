@@ -1,5 +1,6 @@
-﻿
- > *sā vidyā naus tīrṣuṇāṃ gambhīraṃ kāvyasāgaram* — Daṇḍin
+## Introduction
+
+> *sā vidyā naus tīrṣuṇāṃ gambhīraṃ kāvyasāgaram* — Daṇḍin
 
 A sizeable part of Sanskrit literature — and probably the majority of works most learners will ever read — is written in verse. Basic knowledge of Sanskrit metres is directly related to the enjoyment and appreciation of that literature, and it is essential for criticism and literary study.
 
@@ -136,16 +137,15 @@ If all four lines follow different patterns, the metre is called *viṣamavṛtt
 
 ## Tone and Accent
 
-Despite repeated assertions to the contrary in popular sources in modern times, Classical Sanskrit — i.e., the language as described by the three sages (Pāṇini, Kātyāyana, and Patañjali) — does have pitch accent. Pāṇini treats it in his grammar not only for the *chāndasa* but also for the *bhāṣā*. The story of *indraśatru* is used as an example of this by Patañjali:
-```
-duṣṭaḥ śabdaḥ svarato varṇato vā
-mithyā prayukto na tam artham āha;
-sa vāgvajro yajamānaṃ hinasti
-yathendraśatruḥ svarato 'parādhāt.
-```
+Despite repeated assertions to the contrary in modern times, Classical Sanskrit — i.e., the language as described by the three sages (Pāṇini, Kātyāyana, and Patañjali) — does have pitch accent. Pāṇini treats it in his grammar not only for the *chāndasa* but also for the *bhāṣā*. The story of *indraśatru* is used as an example of this by Patañjali:
+
+> *duṣṭaḥ śabdaḥ svarato varṇato vā*
+> *mithyā prayukto na tam artham āha;*
+> *sa vāgvajro yajamānaṃ hinasti*
+> *yathendraśatruḥ svarato 'parādhāt.*
 
 > A faulty word — whether due to accent or sounds — used wrongly does not express the intended meaning. That sound-thunderbolt smites the *yajamāna*, just as *indraśatru* does by unallowed accent.
 
 Besides a handful of specialists, almost no one pronounces Classical Sanskrit with pitch accents today. Pronouncing all letters clearly is generally sufficient, though the stress accent usually falls on either the ultimate or penultimate syllable.
 
-As for tone, various approaches have existed from ancient and medieval times alike. Many medieval works on poetry and rhetoric touch on this topic in general terms — for example, Rājaśekhara's *Kāvyamīmāṃsā*, Ch. 7. As long as the letters are pronounced clearly, with the vowel lengths and qualities correct, I personally do not care for specific recitation styles. 
+As for tone, various approaches have existed from ancient and medieval times alike. Many medieval works on poetry and rhetoric touch on this topic in general terms — for example, Rājaśekhara's *Kāvyamīmāṃsā*, Ch. 7.
